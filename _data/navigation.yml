@@ -1,0 +1,8 @@
+- link: /
+  name: Home
+- link: /events/
+  name: Events
+- link: https://cucyber.net
+  name: cucyber.net
+- link: https://cucyber.net/contact.html
+  name: Contact
