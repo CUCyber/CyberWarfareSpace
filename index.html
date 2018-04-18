@@ -1,0 +1,82 @@
+<html ng-app="attackerApp">
+<head>
+
+	<title>Cyber Warfare Space</title>
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+	<!-- ShadowBuster -->
+	<link rel="stylesheet" href="ShadowBuster/css/leaflet.css" />
+	<link rel="stylesheet" type="ShadowBuster/text/css" href="css/main.css">
+	<link rel="stylesheet" type="ShadowBuster/text/css" href="css/flag-icon.min.css">
+
+	<link rel="stylesheet" type="text/css" href="static/map.css">
+	<link rel="stylesheet" type="text/css" href="static/cover.css">
+</head>
+
+
+<body class="text-center">
+
+	<!-- ShadowBuster Map -->
+	<div id="map"></div>
+	<div ng-controller="tableController"></div>
+
+	<!-- Actual Page -->
+	<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+		
+		<header class="masthead mb-auto">
+			<div class="inner">
+				<h1 class="masthead-brand">Cyber Warfare Space</h1>
+				<nav class="nav nav-masthead justify-content-center">
+					<a class="nav-link active" href="#">Home</a>
+					<a class="nav-link" href="#">Learn More</a>
+					<a class="nav-link" href="#">Contact</a>
+				</nav>
+			</div>
+		</header>
+
+		<main role="main" class="inner cover">
+			<div class="card">
+				<div class="card-body">
+					<p class="lead"><img class="small-logos" src="static/WATT-logo.png"><span class="large-text"> + </span><img class="small-logos" src="static/shield-small.png"></p>
+					<hr>
+					<p class="lead">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse leo ex, scelerisque id malesuada ut, imperdiet id nisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tortor odio, ornare et neque at, tempor condimentum enim. Sed sed consectetur metus, id consectetur arcu. Aenean eleifend vitae orci ac ultricies.
+					</p>
+				</div>
+			</div>
+		</main>
+
+		<footer class="mastfoot mt-auto">
+			<div class="inner">
+				<p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+			</div>
+		</footer>
+	
+	</div>
+	
+
+
+	<!-- Boostrap -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+
+	<!-- ShadowBuster -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.16/angular.min.js"></script>
+	<script src="ShadowBuster/countries.js"></script>
+	<script src="ShadowBuster/chance.js"></script>
+	<script src="ShadowBuster/mock.js"></script>
+	<script src="ShadowBuster/mock-socket.min.js"></script>
+	<script src="ShadowBuster/jquery-2.1.4.min.js"></script>
+	<script src="ShadowBuster/jquery.noisy.min.js"></script>
+	<script src="ShadowBuster/leaflet.pattern.js"></script>
+	<script src="ShadowBuster/app.js"></script>
+	<script src="ShadowBuster/TileLayer.Grayscale.js"></script>	
+	<script src="ShadowBuster/drawing.js"></script>
+
+</body>
+</html>
