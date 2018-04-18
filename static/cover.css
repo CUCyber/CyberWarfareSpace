@@ -83,6 +83,11 @@ main .card-body {
  * Custom
  */
 
+@font-face {
+    font-family:"Eurofighter";
+    src: url("/static/eurofighter.ttf") /* TTF file for CSS3 browsers */
+}
+
 .small-logos {
   width: 40%;
 }
@@ -108,8 +113,8 @@ main .card-body {
   margin: auto auto;
 }
 
-.navbar-brand {
-  font-size: 2.5em;
+h1 {
+  font-family:'Eurofighter', sans-serif;
 }
 
 .nav-item {
